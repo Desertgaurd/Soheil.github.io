@@ -4,19 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Soheil Ghanbarzadeh - Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
+        /* CSS for beautiful visuals with black, white, and gray themes */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
         }
         .container {
             max-width: 800px;
@@ -26,27 +23,41 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        h1, h2, h3 {
+            color: #333;
         }
+        p {
+            color: #666;
+        }
+        /* Additional custom styling can be added in styles.css */
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My GitHub Page</h1>
-    </header>
     <div class="container">
-        <h2>About Me</h2>
-        <p>This is where you can introduce yourself and provide information about your projects, interests, and skills.</p>
+        <header>
+            <h1>Soheil Ghanbarzadeh</h1>
+            <h2>Data Analyst</h2>
+        </header>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Data Visualization</li>
+                <li>Statistical Analysis</li>
+                <li>Python</li>
+                <li>R</li>
+                <li>SQL</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        <section class="profile">
+            <h2>Professional Profile</h2>
+            <p>I am a passionate data analyst with expertise in extracting insights from data and presenting them in a meaningful way. With a strong background in statistical analysis and programming languages such as Python, R, and SQL, I thrive in transforming data into actionable insights for informed decision-making.</p>
+        </section>
+        <section class="resume">
+            <h2>Resume and Projects</h2>
+            <p>View my <a href="resume.pdf" target="_blank">resume</a> and <a href="projects.html" target="_blank">projects</a>.</p>
+        </section>
     </div>
-    <footer>
-        <p>&copy; 2024 My GitHub Page. All rights reserved.</p>
-    </footer>
 </body>
 </html>
